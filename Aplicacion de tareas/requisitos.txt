@@ -1,0 +1,15 @@
+Crear un programa en donde el usuario puedra ingresar la tarea y eliminarla
+
+Como hacerlo:
+
+- Crear un array el cual almacera cada tarea (X)
+
+- Validar para que cada tarea debe tener titulo y descripcion (X)
+
+- Crear un boton para borrar la tarea (X)
+
+- Crear una funcion para cuando al momento de darle click en el boton de eliminar borrarlo del DOM y del localStorage (X)
+
+Tiempo total transcurrido: 4:20:00
+
+Nota: Hacer la opcion de poder borrar la tarea, una idea es recorer todos los objetos con la clase del boton de eliminar y luego buscar el padre mas cercano de ese elemento y sacar la clase que tiene el id y asi poder eliminarla. Recuerda que tambien lo tienes que eliminar del localStorage para cuando se recargue la pagina no se muestre de nuevo

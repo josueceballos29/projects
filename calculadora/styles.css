@@ -1,0 +1,66 @@
+body {
+	font-family: 'open sans'
+}
+
+.container {
+	margin-top: 3em;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+.opciones {
+	width: 100%;
+	height: 350px;
+	display: grid;
+	grid-template-rows: 70px 70px 70px 70px;
+	grid-template-columns: 70px 70px 70px 70px;
+	background-color: #111;
+	grid-gap: 10px;
+	justify-content: center;
+	padding-top: 1.2em;
+	border-radius: 0 0 15px 15px;
+}
+
+.opcion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	border-radius: 13px;
+	color: white;
+	background-color: grey
+}
+
+.Borrar {
+	font-size: 1em;
+	font-weight: bold;
+	background: red;
+}
+
+.igual {
+	background-color:orange
+}
+
+.resultado-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	background: rgb(51, 51, 51);
+	border-radius: 15px 15px 0 0;
+}
+.resultado {
+	width: 80%;
+	height: 70%;
+	overflow-x: auto;
+	font-size: 2.5em;
+	text-align: right;
+	border-radius: 8px;
+	background-color: #666666;
+	border: 4px solid grey;
+	padding: 0 .5em;
+	color: white;
+}

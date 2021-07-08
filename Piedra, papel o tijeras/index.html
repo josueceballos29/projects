@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<title>Piedra, papel o tijera</title>
+</head>
+<body>
+	<header class="header"><h1>Piedra, papel o tijera</h1></header>
+	<div class="versus">
+		<div id="py1">
+			<p>Jugador 1</p>
+			<img id="py1-img" class="img">
+		</div>
+		<div class="versus1">
+			<img src="assets/images/versus.png" alt="">
+		</div>
+		<div id="computer">
+			<p>Computadora</p>
+			<img id="computer-img" class="img">
+		</div>
+	</div>
+	<div class="opciones">
+		<h2>Elige una opcion</h2>
+		<div class="opc">
+			<img src="assets/images/piedra.png" alt="piedra"class="opcion">
+			<img src="assets/images/papel.png" alt="papel" class="opcion">
+			<img src="assets/images/tijeras.png" alt="tijeras"class="opcion">
+		</div>
+	</div>
+	<div class="show" hidden="true"><a href="#resultado">Ver resultado</a></div>
+
+	<div class="pre-resultado" hidden="true">
+		<p class="retry"></p>
+	</div>
+	<div class="resultado" id="resultado" hidden="true">
+		<p class="victory"></p>
+	</div>
+
+	<div class="retry-container" hidden="true">
+		<button id="try-new">Jugar de nuevo</button>
+	</div>
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

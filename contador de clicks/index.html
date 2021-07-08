@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="normalize.css">
+	<title>Contador de Clicks</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar">
+			<ul class="menu">
+				<li><a href="#" class="opcion">Clicks en 10 segundos</a></li>
+				<li><a href="#" class="opcion">Clicks en 5 segundos</a></li>
+				<li><a href="#" class="opcion">Clicks en 60 segundos</a></li>
+			</ul>
+			<p class="empieza" hidden="true">¡EMPIEZA!</p>
+		</nav>
+
+		<div class="elements">
+			<p class="modo">Modo actual: <b>Clicks en 10 segundos</b></p>
+			<a class="btn" href="#">Pulsa Click</a>
+			<div class="resultado-container">
+				<p class="resultado"></p>
+			</div>
+		</div>
+	</div>
+	<div class="background-modal" hidden="true">
+		<div class="modal">
+			<p class="totalClicks"></p>
+			<button class="modal-accept">¿Intentar de nuevo?</button>
+		</div>
+	</div>
+
+	<div class="prueba"></div>
+
+	<!-- Script -->
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

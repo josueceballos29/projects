@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../calculadora/normalize.css">
+	<title>Cronometro</title>
+</head>
+<body>
+	<div class="global">
+		<div class="container">
+			<div class="time">
+				<img src="cronometro.png" alt="cronometro">
+				<div class="cont-tiempo">
+					<p id="tiempo">0.0</p>
+				</div>
+			</div>
+			<div class="opciones">
+				<button class="reiniciar" hidden="true">Reiniciar</button>
+				<button class="stop" hidden="true">Parar</button>
+				<button class="start">Empezar</button>
+				<button id="addQuee" hidden="true">Añadir a cola</button>
+			</div>
+		</div>
+		<div class="colas" hidden="true">
+			<div class="colas-header"><h2>Colas</h2></div>
+			<div id="queeBody"></div>
+		</div>	
+	</div>
+	<!-- Scripts -->
+	<script type="text/javascript" src="code.js"></script>
+</body>
+</html>

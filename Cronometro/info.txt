@@ -1,0 +1,14 @@
+Crear un cronometro
+
+Funciones:
+
+
+- Iniciar el conteo del cronometro (Listo)
+
+- Añadir cola del tiempo del cronometro (Listo)
+
+- Parar el conteo del cronometro
+
+- Eliminar el conteo del cronometro
+
+Total de funciones hechas: 2/4
